@@ -23,7 +23,7 @@
     let cityElement = document.getElementById('inputCity');
     let ulElement = document.getElementById('weather');
 
-   let url = `http://api.weatherapi.com/v1/current.json?key=a04d5de511d94eb18e2181237211702&q=`
+   let url = `https://api.weatherapi.com/v1/current.json?key=a04d5de511d94eb18e2181237211702&q=`
     btn.addEventListener('click',()=>{
 
         fetch(url + `${cityElement.value}`)
