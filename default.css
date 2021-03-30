@@ -594,6 +594,12 @@
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }
+
+@media screen and (max-width: 375px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
 @media only screen 
     and (device-width : 375px) 
     and (device-height : 812px) 
