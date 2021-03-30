@@ -4,6 +4,8 @@ import { homePage } from './views/home.js'
 import { portFolioPage } from './views/portfolio.js';
 import { skillsPage } from './views/skills.js';
 
+
+
 const main = document.getElementById('main');
 
 
