@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mehmet Ismail</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/3dfe3c4d20.js" crossorigin="anonymous"></script>
 </head>
 
@@ -21,8 +22,6 @@
             <ul class="ul-nav">
                 <li class="tilt">Me</li>
                 <li class="tilt">Projects</li>
-                <li class="tilt">Skills</li>
-                <li class="tilt">Hire Me</li>
                 <li class="tilt">Contact</li>
             </ul>
         </nav>
@@ -30,21 +29,46 @@
 
     <main>
         <section id="me" class="info-content">
-            <h1 class="img-caption">Who am I?</h1>
-            <article class="img-wrapper">
-                <img src="/images/headerPic.jpg" alt="" />
-                <p class="overlay">Software Development Student</p>
-            </article>
+            <div class="card">
+                <article class="card-content">
+                    <h2><i class="fas fa-user-alt"></i></h2>
+                    <h3>Who am I?</h3>
+                    <p>
+                        Front End Development Student, highly motivated to learn and develop.
+                    </p>
+                </article>
+            </div>
+
+            <div class="card">
+                <article class="card-content">
+                    <h2><i class="fas fa-laptop-code"></i></h2>
+                    <h3>Skills</h3>
+                    <p>
+                        JavaScript, HTML, CSS, React.js, C#, OOP, Agile Metodology, QA Knowledge, REST Api, VSCode, Dev Tools and more.
+                    </p>
+                </article>
+            </div>
+
+            <div class="card">
+                <article class="card-content">
+                    <h2><i class="fas fa-book-open"></i></h2>
+                    <h3>Education</h3>
+                    <p>SoftUni Bulgaria</p>
+                    <p>University of Ruse - Automatics and IT</p>
+                    <p>High School of Chemistry , Razgrad, Bulgaria</p>
+                </article>
+            </div>
+
         </section>
     </main>
 
     <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script>
-        VanillaTilt.init(document.querySelectorAll("img"), {
-            max: 25,
+        VanillaTilt.init(document.querySelectorAll(""), {
+            max: 1,
             speed: 400,
             glare: true,
-            "max-glare": 1,
+            "max-glare": 0.1,
         });
     </script>
 </body>
