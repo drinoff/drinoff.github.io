@@ -28,6 +28,7 @@ projectsBtn.addEventListener('click', function() {
             meCards.style.display = 'none';
             contactsCards.style.display = 'none';
             projectCards.style.display = 'flex';
+            projectCards.style.opacity = 1;
         }, 1000);
 
     }
@@ -57,6 +58,7 @@ meBtn.addEventListener('click', function() {
             projectCards.style.display = 'none';
             contactsCards.style.display = 'none';
             meCards.style.display = 'flex';
+            meCards.style.opacity = 1;
         }, 1000);
 
     }
@@ -87,6 +89,7 @@ contactsBtn.addEventListener('click', function() {
             meCards.style.display = 'none';
             projectCards.style.display = 'none';
             contactsCards.style.display = 'flex';
+            contactsCards.style.opacity = 1;
         }, 1000);
 
     }
