@@ -14,7 +14,26 @@
   #me .card .card-content p {
     font-size: 24px;
   }
-  #me .card {
-    cursor: pointer;
+
+  main .info-content .card {
+    position: relative;
+  }
+  main .info-content .card .whoAmI,
+  main .info-content .card .skills,
+  main .info-content .card .education,
+  main .info-content .card .soon,
+  main .info-content .card .soon,
+  main .info-content .card .projects-seBau,
+  main .info-content .card .contacts {
+    display: none;
+  }
+
+  main .info-content .card .card-content p {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  .social {
+    color: white;
   }
 }

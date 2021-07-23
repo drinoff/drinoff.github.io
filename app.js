@@ -4,6 +4,7 @@ const contactsBtn = document.getElementById("contactsBtn");
 const meCards = document.getElementById("me");
 const projectCards = document.getElementById("projects");
 const contactsCards = document.getElementById("contacts");
+const cardElement = document.getElementsByClassName("card");
 
 projectsBtn.addEventListener("click", function () {
   if (projectCards.style.display !== "flex") {
