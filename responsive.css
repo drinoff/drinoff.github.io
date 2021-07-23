@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @media screen and (max-width: 700px) {
   .header {
     flex-direction: column;
@@ -38,44 +37,3 @@
     color: white;
   }
 }
-=======
-@media screen and (max-width: 700px) {
-  .header {
-    flex-direction: column;
-  }
-
-  .header nav {
-    margin-top: 30px;
-  }
-
-  .header nav .ul-nav li {
-    margin-right: 40px;
-  }
-
-  #me .card .card-content p {
-    font-size: 24px;
-  }
-
-  main .info-content .card {
-    position: relative;
-  }
-  main .info-content .card .whoAmI,
-  main .info-content .card .skills,
-  main .info-content .card .education,
-  main .info-content .card .soon,
-  main .info-content .card .soon,
-  main .info-content .card .projects-seBau,
-  main .info-content .card .contacts {
-    display: none;
-  }
-
-  main .info-content .card .card-content p {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-
-  .social {
-    color: white;
-  }
-}
->>>>>>> 4ede9396098d33405f19d836d4cfd8abb564a43d
