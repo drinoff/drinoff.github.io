@@ -6,4 +6,14 @@
   .header nav {
     margin-top: 30px;
   }
+
+  .header nav .ul-nav li {
+    margin-right: 40px;
+  }
+  main {
+    flex-direction: column;
+  }
+  main .info-content {
+    opacity: 1;
+  }
 }
