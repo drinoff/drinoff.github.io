@@ -10,10 +10,8 @@
   .header nav .ul-nav li {
     margin-right: 40px;
   }
-  main {
-    flex-direction: column;
-  }
-  main .info-content {
-    opacity: 1;
+
+  #me .card .card-content p {
+    font-size: 24px;
   }
 }
